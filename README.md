@@ -61,13 +61,13 @@ If using QEMU provided by this course:
 
 ## Demo
 
-**Boot **
+#### Boot 
 we can also see the desktop and the status bar in the buttom with location and time.
 ![](demo/boot_animation.gif)
 
 ------
 
-**Cursor Display**
+#### Cursor Display
 The self-designed cursor can open a new terminal and close it smoothly.
 ![](demo/cursor_display.gif)
 
@@ -79,7 +79,7 @@ The terimal can continue to run the program when it is minimized.
 
 ------
 
-**CMD history**
+#### CMD history
 The terminal can support auto code completion and command history switch by pressing up button.
 
 ![](demo/history_buf.gif)
@@ -87,13 +87,13 @@ The terminal can support auto code completion and command history switch by pres
 
 ------
 
-**Other operations**
+#### Other operations
 
 ![](demo/basic_operation.gif)
 
 ------
 
-**Signal**
+#### Signal
 We can use “CRTL+C” to terminal the current program, which is the signal part in linux kernel.
 
 ![](demo/signal.gif)
