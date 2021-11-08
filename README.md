@@ -34,7 +34,7 @@ COMMAND RELATED
 
 - Support auto-complete function for command (by pressing **tab**).
 - Support history information buffer, whose maximum limit is 135 (by using **arrow up** and **arrow down**).
- 
+
 SIGNAL RELATED
 
 - Provide a common API for idt content.
@@ -59,9 +59,48 @@ If using QEMU provided by this course:
 
 `qemu-system-i386 -hda "student-distrib/mp3.img" -m 512 -name test -gdb tcp:127.0.0.1:1234 -soundhw pcspk -soundhw sb16 -serial /dev/ttyUSB0 -vga std`
 
+## Demo
+
+**Boot **
+we can also see the desktop and the status bar in the buttom with location and time.
+![](demo/boot_animation.gif)
+
+------
+
+**Cursor Display**
+The self-designed cursor can open a new terminal and close it smoothly.
+![](demo/cursor_display.gif)
+
+------
+
+**Terminal**
+The terimal can continue to run the program when it is minimized.
+![](demo/terminal.gif)
+
+------
+
+**CMD history**
+The terminal can support auto code completion and command history switch by pressing up button.
+
+![](demo/history_buf.gif)
+
+
+------
+
+**Other operations**
+
+![](demo/basic_operation.gif)
+
+------
+
+**Signal**
+We can use “CRTL+C” to terminal the current program, which is the signal part in linux kernel.
+
+![](demo/signal.gif)
 
 ACADEMIC INTEGRITY
 -----
+
 Please review the University of Illinois Student Code before starting,
 particularly all subsections of Article 1, Part 4 Academic Integrity and Procedure [here](https://studentcode.illinois.edu/article1/part4/1-401/).
 
@@ -109,9 +148,9 @@ particularly all subsections of Article 1, Part 4 Academic Integrity and Procedu
 
 (2)	Academic interference also includes acts in which the student committing the infraction personally benefits from the interference, regardless of the effect on other students.
 
-
 LEGAL
 -----
+
 Permission to use, copy, modify, and distribute this software and its
 documentation for any purpose, without fee, and without written agreement is
 hereby granted, provided that the above copyright notice and the following
